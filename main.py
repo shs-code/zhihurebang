@@ -43,3 +43,4 @@ datai[:2]
 
 df = pd.DataFrame(datai)
 ndf= df.fillna('如题') #有些题目内容是空白，即是题目标题
+ndf.to_excel('d:/practice/zhihurebang.xlsx')
